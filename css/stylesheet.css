@@ -1,26 +1,32 @@
 .wrapper{
-    background-color: #D4FAF1;
+    background-color: lightblue;
 }
 
 header { 
-    background-color: #BFFBDC;
+    background-color: lightblue;
     padding: 25px;
     text-align: center;
     color: black;
+    font-size: larger;
+    border: 2px solid black;
+    font-weight: 400;
 }
 
 
 nav { 
-    background-color: #387A58;
+    background-color: lightblue;
     margin: 10px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 1px solid black;
+    text-align: center;
 }
 
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 a:link {
@@ -30,25 +36,27 @@ a:link {
 }
 
 a:visited {
-    color: darkcyan;
+    color: white;
     background-color: black;
     padding: 2px;
 }
 
 a:hover {
-    color: #BFFBDC;
+    color: white;
     background-color: hotpink;
     padding: 2px;
 }
 
 a:active {
-    color: hotpink
+    color: hotpink;
+    background-color: black;
+    padding: 2px;
 }
 
 
-main { background-color: #BFFBDC;}
+main { background-color: white;}
 
-body { background-color: #D4FAF1;}
+body { background-color: white;}
 
 table {
     border-collapse: collapse;
