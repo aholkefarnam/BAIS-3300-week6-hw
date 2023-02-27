@@ -11,6 +11,7 @@ header {
     font-size: larger;
     border: 2px solid black;
     font-weight: 1000;
+    margin: 5px;
 }
 
 
@@ -87,9 +88,9 @@ th, td {
 tr:nth-child(even) {
     background-color: lightgray;
 }
-tr:hover {background-color: coral;}
+tr:hover {background-color: yellow;}
 footer { 
-    background-color: #437A6E;
+    background-color: lightblue;
     padding: 25px;
     text-align: center;
     color: whitesmoke;
