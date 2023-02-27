@@ -17,17 +17,22 @@ nav {
     border-bottom: 1px solid black;
 }
 
+
 a {
     text-decoration: none;
     font-size: 1.1rem;
 }
 
 a:link {
-    color: white;
+    color: #BFFBDC;
+    background-color: black;
+    padding: 2px;
 }
 
 a:visited {
-    color: white;
+    color: darkcyan;
+    background-color: black;
+    padding: 2px;
 }
 
 a:hover {
