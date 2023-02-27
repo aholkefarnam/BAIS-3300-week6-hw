@@ -1,68 +1,96 @@
 .wrapper{
-    background-color: #D4FAF1;
+    background-color: gray;
+    border: 3px solid white;
 }
 
 header { 
-    background-color: #BFFBDC;
+    background-color: lightblue;
     padding: 25px;
     text-align: center;
     color: black;
+    font-size: larger;
+    border: 2px solid black;
+    font-weight: 1000;
+    margin: 5px;
 }
 
 
 nav { 
-    background-color: #387A58;
+    background-color: lightblue;
     margin: 10px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border: 2px solid black;
+    text-align: center;
 }
 
+
 a {
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 a:link {
-    color: white;
+    color: #BFFBDC;
+    background-color: black;
+    padding: 2px;
 }
 
 a:visited {
     color: white;
+    background-color: black;
+    padding: 2px;
 }
 
 a:hover {
-    color: #BFFBDC;
+    color: white;
     background-color: hotpink;
     padding: 2px;
 }
 
 a:active {
-    color: hotpink
+    color: hotpink;
+    background-color: black;
+    padding: 2px;
 }
 
 
-main { background-color: #BFFBDC;}
+main { background-color: white;}
 
-body { background-color: #D4FAF1;}
+body { background-color: white;}
 
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     background-color: white;
     border: 1px solid black;
+    align-content: center;
+}
+
+thead {
+    text-align: center;
+    font-size: larger;
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border-bottom: solid black;
 }
 
 th, td {
     text-align: center;
     padding: 8px;
+    border-bottom: 1px solid #ddd;
 }
+
 
 
 tr:nth-child(even) {
-    background-color: grey;
+    background-color: lightgray;
 }
+tr:hover {background-color: yellow;}
 footer { 
-    background-color: #437A6E;
+    background-color: lightblue;
     padding: 25px;
     text-align: center;
     color: whitesmoke;
