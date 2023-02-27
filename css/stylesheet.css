@@ -1,5 +1,6 @@
 .wrapper{
-    background-color: lightblue;
+    background-color: gray;
+    border: 3px solid white;
 }
 
 header { 
@@ -9,7 +10,7 @@ header {
     color: black;
     font-size: larger;
     border: 2px solid black;
-    font-weight: 400;
+    font-weight: 1000;
 }
 
 
@@ -18,7 +19,7 @@ nav {
     margin: 10px;
     padding-bottom: 15px;
     padding-top: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
 }
 
@@ -60,20 +61,33 @@ body { background-color: white;}
 
 table {
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     background-color: white;
     border: 1px solid black;
+    align-content: center;
+}
+
+thead {
+    text-align: center;
+    font-size: larger;
+    background-color: gold;
+    color: black;
+    font-weight: bolder;
+    border-bottom: solid black;
 }
 
 th, td {
     text-align: center;
     padding: 8px;
+    border-bottom: 1px solid #ddd;
 }
+
 
 
 tr:nth-child(even) {
-    background-color: grey;
+    background-color: lightgray;
 }
+tr:hover {background-color: coral;}
 footer { 
     background-color: #437A6E;
     padding: 25px;
